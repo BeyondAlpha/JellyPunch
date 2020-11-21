@@ -13,7 +13,7 @@ public class Move : MonoBehaviour
  
     void FixedUpdate()
     {
-        float h = Input.GetAxisRaw("Horizontal"):
+        float h = Input.GetAxisRaw("Horizontal");
 
         rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
     }
