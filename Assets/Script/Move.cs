@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Move : MonoBehaviour
 {
-    Rigidbody2D rigid
+    Rigidbody2D rigid;
 
     void Awake()
     {
