@@ -28,7 +28,7 @@ public class Move : MonoBehaviour
             spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
 
         //Animation
-        if (Mathf. rigid.velocity.x < 0.3)
+        if (Mathf.Abs(rigid.velocity.x) < 0.3)
             anim.SetBool("isWalking", false);
         else
             anim.SetBool("isWalking", true);
