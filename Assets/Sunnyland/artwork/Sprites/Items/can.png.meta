@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e160a2a620644cd6afef9119dad1093
+guid: ceeb8c84042ff724f8c81c90371de459
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,26 +45,26 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,32 +73,48 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: -3, y: -7}
+      - {x: -3, y: -5.973568}
+      - {x: -3, y: 3.9620934}
+      - {x: -3, y: 5}
+      - {x: 3, y: 5}
+      - {x: 3, y: 3.9723654}
+      - {x: 3, y: -5.8650103}
+      - {x: 3, y: -7}
+    - - {x: 4.973571, y: -5}
+      - {x: -4.962093, y: -5}
+      - {x: -6, y: -5}
+      - {x: -6, y: -4}
+      - {x: -6, y: 2}
+      - {x: -6, y: 3}
+      - {x: -4.97357, y: 3}
+      - {x: 5.061363, y: 3}
+      - {x: 6, y: 3}
+      - {x: 6, y: 2}
+      - {x: 5.999999, y: -3.9839306}
+      - {x: 6, y: -5}
+    - - {x: -5, y: -6}
+      - {x: -5, y: 4}
+      - {x: 5, y: 4}
+      - {x: 5, y: -6}
+    - - {x: -7, y: -4}
+      - {x: -7, y: 2}
+      - {x: 7, y: 2}
+      - {x: 7, y: -4}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
